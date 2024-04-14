@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Shadows+Into+Light+Two&display=swap')
-
 *{
     margin: 0cm;
     padding: 0cm;
@@ -33,6 +31,15 @@ body {
     width: 150px;
     height: 150px;
 }
+
+@media screen and (max-widht: 767px){
+    .comienzo img{
+        width: 100px;
+        height: 100px;
+        
+    }
+}
+
 
 .comienzo {
     font-weight: 400;
