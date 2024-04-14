@@ -18,6 +18,22 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+    /* Cambia el color de fondo a blanco en dispositivos móviles */
+    .navbar {
+        background-color: white;
+    }
+    
+    /* Ajusta la posición vertical del contenido de la barra de navegación */
+    .navbar-nav {
+        margin-top: 10px; /* Puedes ajustar este valor según tus necesidades */
+    }
+
+    /* Cambia el tamaño del logo en dispositivos móviles */
+    .navbar-brand img {
+        max-height: 40px; /* Puedes ajustar este valor según tus necesidades */
+    }
+}
 /**-----------------------------INICIO DE PAGINA= INDEX---------------------------------**/
 /**--------HEADER-------**/
 
@@ -32,11 +48,10 @@ body {
     height: 150px;
 }
 
-@media screen and (max-widht: 767px) {
+@media (max-widht: 767px) {
     .comienzo img {
         width: 100px;
         height: 100px;
-
     }
 }
 
@@ -57,42 +72,14 @@ body {
     margin-top: calc(10rem + 16px);
 }
 
-@media screen and (max-width: 767px) {
-    .comienzo {
-        background-color: white;
-    }
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-    .navbar {
-        height: auto;
-    }
-
-    .navbar-brand img {
-        width: 150px;
-    }
-
-    .navbar-collapse {
-        position: absolute;
-        top: 100%;
-        /* Ajusta la posición del menú desplegable */
-        left: 0;
-        z-index: 999;
-        background-color: #f8fcff;
-        /* Ajusta el color de fondo del menú desplegable */
-        padding: 10px;
-        /* Ajusta el espacio alrededor del menú desplegable */
-    }
-}
-
 /** ---------CARRUSELLL IMAGENES AUTOMATICO---------- **/
 .carousel-inner div img {
     max-height: 70vh;
     max-width: 100%;
 }
 
-/**------INDEX SECCION 2-------**/
+/**------INDEX SECCION BIENVENIDOS-------**/
+
 .index-img-reuniones {
     width: 180px;
     align-content: center;
@@ -103,6 +90,7 @@ body {
         width: 90px;
     }
 }
+/* SECCION OBJ - NUESTRO COMPROMISO */
 
 .objetivo-gulili {
     color: #6c016c;
@@ -165,7 +153,6 @@ body {
 .container div h2 {
     color: #82027e;
     font-size: 40px;
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 400;
     padding: 10px;
 }
