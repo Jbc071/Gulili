@@ -23,14 +23,22 @@ body {
 /**--------HEADER-------**/
 
 .comienzo {
+    background-color: white;
     width: auto;
-    height: 125px;
+    height: auto;
     padding-top: 70px;
 }
 
 .comienzo img {
     width: 150px;
     height: 150px;
+}
+
+@media (max-width: 767px){
+    .comienzo img{
+        width: 75px;
+        height: 75px;
+    }
 }
 
 
@@ -74,9 +82,14 @@ body {
     align-content: center;
 }
 
+
 @media screen and (max-width: 767px) {
     .index-img-reuniones {
         width: 90px;
+    }
+    .bienvenidos2{
+        padding: 10px;
+        margin: 10px;
     }
 }
 /* SECCION OBJ - NUESTRO COMPROMISO */
