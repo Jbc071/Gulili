@@ -8,14 +8,14 @@
 
 body {
     min-height: 100vh;
-    font-family: "Shadows Into Light Two", cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 35px;
 }
 
 @media screen and (max-width: 767px){
     body {
-        font-family: "Shadows Into Light Two", cursive;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
     }
 }
