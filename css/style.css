@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0cm;
     padding: 0cm;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
     line-height: 35px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
@@ -32,11 +32,11 @@ body {
     height: 150px;
 }
 
-@media screen and (max-widht: 767px){
-    .comienzo img{
+@media screen and (max-widht: 767px) {
+    .comienzo img {
         width: 100px;
         height: 100px;
-        
+
     }
 }
 
@@ -56,42 +56,67 @@ body {
 .siguiente-seccion {
     margin-top: calc(10rem + 16px);
 }
-@media screen and (max-width: 767px){
+
+@media screen and (max-width: 767px) {
     .comienzo {
-        background-color: whitesmoke;
+        background-color: white;
     }
 }
 
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        /* Ajusta la posición del menú desplegable */
+        left: 0;
+        z-index: 999;
+        background-color: #f8fcff;
+        /* Ajusta el color de fondo del menú desplegable */
+        padding: 10px;
+        /* Ajusta el espacio alrededor del menú desplegable */
+    }
+}
 
 /** ---------CARRUSELLL IMAGENES AUTOMATICO---------- **/
 .carousel-inner div img {
     max-height: 70vh;
     max-width: 100%;
 }
+
 /**------INDEX SECCION 2-------**/
-.index-img-reuniones{
+.index-img-reuniones {
     width: 180px;
     align-content: center;
 }
 
 @media screen and (max-width: 767px) {
-    .index-img-reuniones{
+    .index-img-reuniones {
         width: 90px;
     }
 }
 
-.objetivo-gulili{
+.objetivo-gulili {
     color: #6c016c;
     font-size: 20px;
     text-align: center;
-    line-height:40px;
-    text-shadow: -3px 7px 9px rgba(6,162,137,0.69);
+    line-height: 40px;
+    text-shadow: -3px 7px 9px rgba(6, 162, 137, 0.69);
     border-radius: 35px 35px 35px 35px;
     -webkit-border-radius: 35px 35px 35px 35px;
     -moz-border-radius: 35px 35px 35px 35px;
-    border: 13px outset rgba(217,255,80,0.42);
+    border: 13px outset rgba(217, 255, 80, 0.42);
 }
-.compromiso-gulili{
+
+.compromiso-gulili {
     color: #99cf15;
     text-align: right;
     font-size: 30px;
@@ -105,12 +130,13 @@ body {
     background-position: center;
 }
 
-.texto-con-fondo{
+.texto-con-fondo {
     background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
     padding: 20px;
 }
-.texto-con-fondo p{
+
+.texto-con-fondo p {
     font-weight: 600;
     font-size: large;
 }
@@ -124,6 +150,7 @@ body {
     height: 300px;
     margin-bottom: 20px;
 }
+
 /**-----------------------------INICIO DE PAGINA NOSOTROS---------------------------------**/
 /**------NUESTRO JARDIN MISION VISION-------**/
 
@@ -142,17 +169,20 @@ body {
     font-weight: 400;
     padding: 10px;
 }
-.container div p{
+
+.container div p {
     color: gray;
 }
-.container{
+
+.container {
     padding: 25px;
 }
 
 /**------INFRAESTRUCTURA-------**/
-#infraestructura{
+#infraestructura {
     background-image: url(../img/separador3.jpg);
 }
+
 .container div ul li {
     background-color: none;
 }
@@ -178,33 +208,39 @@ body {
 }
 
 /* FONDO DE CADA SALA */
-.salas-lactante{
+.salas-lactante {
     background-color: aquamarine;
     border-radius: 51px 51px 51px 51px;
     -webkit-border-radius: 51px 51px 51px 51px;
     -moz-border-radius: 51px 51px 51px 51px;
 }
-.salas-1año{
-    background-color: RGBA(0,78,195,0.4);
+
+.salas-1año {
+    background-color: RGBA(0, 78, 195, 0.4);
     border-radius: 51px 51px 51px 51px;
     -webkit-border-radius: 51px 51px 51px 51px;
     -moz-border-radius: 51px 51px 51px 51px;
 }
-.salas-2año{
-    background-color: RGBA(255,78,195,0.4);
+
+.salas-2año {
+    background-color: RGBA(255, 78, 195, 0.4);
     border-radius: 51px 51px 51px 51px;
     -webkit-border-radius: 51px 51px 51px 51px;
     -moz-border-radius: 51px 51px 51px 51px;
 }
-.salas-3año{
-    background-color: RGBA(0,247,0,0.33);
+
+.salas-3año {
+    background-color: RGBA(0, 247, 0, 0.33);
     border-radius: 51px 51px 51px 51px;
     -webkit-border-radius: 51px 51px 51px 51px;
     -moz-border-radius: 51px 51px 51px 51px;
 }
 
 /* PROPIEDAS DE LAS IMAGENES DE LAS SALAS+BORDER */
-.salas-lactante-img, .salas-1año-img, .salas-2año-img, .salas-3año-img {
+.salas-lactante-img,
+.salas-1año-img,
+.salas-2año-img,
+.salas-3año-img {
     height: 400px;
     object-fit: cover;
     border-radius: 51px 51px 51px 51px;
@@ -213,22 +249,25 @@ body {
 }
 
 /* COLOR TEXTO */
-.salas-1año div p, .salas-3año div p {
+.salas-1año div p,
+.salas-3año div p {
     color: black;
     text-align: center;
 }
-.salas-2año div p{
-    color:rgb(107, 102, 102);
+
+.salas-2año div p {
+    color: rgb(107, 102, 102);
 }
 
-.row div p{
+.row div p {
     text-align: center;
 }
 
 /**------------------------INICIO DE SECCION INFORMACION-----------------------------**/
 /**---INICIO DE SECCION INFORMACION JORNADAS Y HORARIOS-------**/
 /* COLOR FONDO - ALINEACION DE CADA JORNADA */
-.tipo-jornadas div, .tipo-jornadas-2{
+.tipo-jornadas div,
+.tipo-jornadas-2 {
     background-color: #82027e;
     text-align: center;
     color: white;
@@ -238,16 +277,19 @@ body {
     padding: 10px;
 
 }
-.tipo-jornadas-2{
+
+.tipo-jornadas-2 {
     align-items: center;
     margin: 10px;
     padding: 15px;
 }
-.tipo-jornadas-2 div h6{
+
+.tipo-jornadas-2 div h6 {
     line-height: 30px;
-    
+
 }
-.tipo-jornadas{
+
+.tipo-jornadas {
     margin: 20px;
     padding: 15px;
 }
