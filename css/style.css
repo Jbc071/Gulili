@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap')
+
+*{
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    font-family: "Sombras en luz dos", cursive;
+    line-height: 35px;
+}
+/**-----------------------------INICIO DE PAGINA= INDEX---------------------------------**/
+/**--------HEADER-------**/
+
+.comienzo {
+    width: auto;
+    height: 125px;
+    padding-top: 70px;
+}
+
+.comienzo img {
+    width: 150px;
+    height: 150px;
+}
+
+.comienzo {
+    font-family: "Sombras en luz dos", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.comienzo {
+    background: white;
+}
+
+.siguiente-seccion {
+    margin-top: calc(10rem + 16px);
+}
+
+/** ---------CARRUSELLL IMAGENES AUTOMATICO---------- **/
+.carousel-inner div img {
+    max-height: 70vh;
+    max-width: 100%;
+}
+/**------INDEX SECCION 2-------**/
+.index-img-reuniones{
+    width: 180px;
+    align-content: center;
+}
+
+.soy-gulili{
+    align-content: center;
+}
+
+.objetivo-gulili{
+    color: #6c016c;
+    font-size: 20px;
+    text-align: center;
+    line-height:40px;
+    text-shadow: -3px 7px 9px rgba(6,162,137,0.69);
+    border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    border: 13px outset rgba(217,255,80,0.42);
+}
+.compromiso-gulili{
+    color: #99cf15;
+    text-align: right;
+    font-size: 30px;
+}
+
+/**------INDEX SECCION 3 IMG CON-------**/
+
+.nosotros3.container {
+    background-image: url(../img/watercolor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-con-fondo{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 20px;
+}
+.texto-con-fondo p{
+    font-family: "Sombras en luz dos", cursive;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+.imagen-fondo {
+    position: relative;
+    background-image: url(../img/watercolor.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+/**-----------------------------INICIO DE PAGINA NOSOTROS---------------------------------**/
+/**------NUESTRO JARDIN MISION VISION-------**/
+
+.nuestrojardin-img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 66px 36px 35px 0px;
+    -webkit-border-radius: 66px 36px 35px 0px;
+    -moz-border-radius: 66px 36px 35px 0px;
+}
+
+.container div h2 {
+    color: #82027e;
+    font-size: 40px;
+    font-family: "Sombras en luz dos", cursive;
+    font-weight: 400;
+    padding: 10px;
+}
+.container div p{
+    color: gray;
+}
+.container{
+    padding: 25px;
+}
+
+/**------INFRAESTRUCTURA-------**/
+#infraestructura{
+    background-image: url(../img/separador3.jpg);
+}
+.container div ul li {
+    background-color: none;
+}
+
+.imagen-pequeña img {
+    width: 100px;
+    height: auto;
+}
+
+/**-----------------------------INICIO DE PAGINA SALAS---------------------------------**/
+
+/* SEPARADOR SALAS - NOSOTROS - INFORMACION DE TODAS */
+.separador-salas h2 {
+    background-image: url(../img/separador-salas.jpg);
+    color: white;
+    padding: 1vw;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 10vw;
+    height: 15vw;
+    margin: 5vw;
+}
+
+/* FONDO DE CADA SALA */
+.salas-lactante{
+    background-color: aquamarine;
+    border-radius: 51px 51px 51px 51px;
+    -webkit-border-radius: 51px 51px 51px 51px;
+    -moz-border-radius: 51px 51px 51px 51px;
+}
+.salas-1año{
+    background-color: RGBA(0,78,195,0.4);
+    border-radius: 51px 51px 51px 51px;
+    -webkit-border-radius: 51px 51px 51px 51px;
+    -moz-border-radius: 51px 51px 51px 51px;
+}
+.salas-2año{
+    background-color: RGBA(255,78,195,0.4);
+    border-radius: 51px 51px 51px 51px;
+    -webkit-border-radius: 51px 51px 51px 51px;
+    -moz-border-radius: 51px 51px 51px 51px;
+}
+.salas-3año{
+    background-color: RGBA(0,247,0,0.33);
+    border-radius: 51px 51px 51px 51px;
+    -webkit-border-radius: 51px 51px 51px 51px;
+    -moz-border-radius: 51px 51px 51px 51px;
+}
+
+/* PROPIEDAS DE LAS IMAGENES DE LAS SALAS+BORDER */
+.salas-lactante-img, .salas-1año-img, .salas-2año-img, .salas-3año-img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 51px 51px 51px 51px;
+    -webkit-border-radius: 51px 51px 51px 51px;
+    -moz-border-radius: 51px 51px 51px 51px;
+}
+
+/* COLOR TEXTO */
+.salas-1año div p, .salas-3año div p {
+    color: black;
+    text-align: center;
+}
+.salas-2año div p{
+    color:rgb(107, 102, 102);
+}
+
+.row div p{
+    text-align: center;
+}
+
+/**------------------------INICIO DE SECCION INFORMACION-----------------------------**/
+/**---INICIO DE SECCION INFORMACION JORNADAS Y HORARIOS-------**/
+/* COLOR FONDO - ALINEACION DE CADA JORNADA */
+.tipo-jornadas div, .tipo-jornadas-2{
+    background-color: #82027e;
+    text-align: center;
+    color: white;
+    border-radius: 103px 103px 103px 104px;
+    -webkit-border-radius: 103px 103px 103px 104px;
+    -moz-border-radius: 103px 103px 103px 104px;
+    padding: 10px;
+
+}
+.tipo-jornadas-2{
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+.tipo-jornadas-2 div h6{
+    line-height: 30px;
+    
+}
+.tipo-jornadas{
+    margin: 20px;
+    padding: 15px;
+}
+
+
+
+/**---INICIO DE SECCION INFORMACION JORNADAS-------**/
+
+.jornadas,
+.info-padres,
+.info-jardin {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    padding: 15px;
+}
+
+.jornadas h2 {
+    font-size: 40px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+
+.jornadas h3 {
+    font-size: 20px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.jornadaesp {
+    font-family: "Amatic SC" sans-serif;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: rgba(96, 12, 206, 0.76);
+    margin: 15px;
+}
+
+.jornadaesp h3 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.jornadaesp h4 {
+    font-size: 20px;
+}
+
+
+/**---INICIO DE SECCION INFORMACION PADRES-------**/
+
+.info-padres {
+    background-color: #99cf15;
+}
+
+.info-padres h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+}
+
+.info-1 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+}
+
+.info-1 div,
+.info-2 div,
+.info-3 div,
+.info-4 div {
+    background-color: white;
+    height: 60px;
+    width: 800px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.info-2 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 15px;
+}
+
+
+.info-3 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+}
+
+.info-4 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+}
+
+/**---INICIO DE SECCION INFORMACION jardin-------**/
+
+.info-jardin h2 {
+    color: #82027e;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.info-jardin1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+}
+
+.info-jardin1 div,
+.info-jardin2 div,
+.info-jardin3 div,
+.info-jardin4 div {
+    height: auto;
+    width: 800px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    border-style: dotted;
+    border-color: #82027e;
+}
+
+.info-jardin1 h3 {
+    color: #82027e;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info-jardin p,
+.info-jardin2 p,
+.info-jardin3 p,
+.info-jardin4 p {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.info-jardin2 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+}
+
+.info-jardin2 h3 {
+    color: #82027e;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info-jardin3 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+}
+
+.info-jardin3 h3 {
+    color: #82027e;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info-jardin4 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+}
+
+.info-jardin4 h3 {
+    color: #82027e;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/**------------------------INICIO DE SECCION NOSOTROS-----------------------------**/
+
+
+
+/* -----INFRAESTRUCTURA------------ */
+.infraestructura {
+    background-image: url(../img/separador3.jpg);
+}
+
+
+.infraestructura h2 {
+    color: #82027e;
+    font-size: 30px;
+}
+
+.infra-listas {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: ce;
+}
+
+.infra-1,
+.infra-2 {
+    color: #6c016c;
+    font-family: "Sombras en luz dos", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+
+/** ----------INICIO DE CONTACTOO------ **/
+
+.contacto-img-separador {
+    width: 100%;
+    height: 300x;
+}
+
+
+.contacto div img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contacto {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contacto h2 {
+    font-size: 36px;
+    color: #82027e;
+    margin-bottom: 20px;
+}
+
+
+.contacto-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.contacto-info div {
+    flex: 1;
+}
+
+.contacto-info img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contacto-info p {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+/* Estilos para el formulario de contacto */
+.contacto-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-formulario h3 {
+    font-size: 24px;
+    color: #82027e;
+    margin-bottom: 20px;
+}
+
+.contacto-formulario input[type="text"],
+.contacto-formulario input[type="email"],
+.contacto-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.contacto-formulario textarea {
+    height: 150px;
+}
+
+.contacto-formulario input[type="text"]:focus,
+.contacto-formulario input[type="email"]:focus,
+.contacto-formulario textarea:focus {
+    border-color: #82027e;
+}
+
+.contacto-formulario button {
+    background-color: #82027e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto-formulario button:hover {
+    background-color: #6c016c;
+}
+
+
+/* -----FOOTER DE CONTACTO (Para que no haya misma informacion)------ */
+
+
+/**---INICIO DE FOOTER-------**/
+
+#footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    color: #343a40;
+}
+
+#footer h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+#footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#footer img {
+    width: 30px;
+    height: 30px;
+}
+
+#footer p {
+    margin-bottom: 15px;
+}
+
+#footer iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+
+/* .footer {
+    background-color: #81c7849d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer a{
+    text-decoration: none;
+}
+
+.redes-sociales, .footer-contacto, .mapa {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociales ul li a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociales ul li a:hover img {
+    transform: scale(1.1);
+}
+
+.footer-contacto h3, .mapa h3 {
+    margin-top: 20px;
+}
+
+.footer-contacto img {
+    width: 40px;
+    height: 40px;
+}
+.footer-contacto img a:hover {
+    transform: scale(1.1);
+}
+.mapa iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+}  */
+
+
+/**---FIN DE FOOTERR-------**/
+
+/** -----------MEDIA QUERY------------ **/
+
+
+/**----CARRUSEL MEDIA---  */
+
+
+/**----NOSOTROS MEDIA QUERY---  */
