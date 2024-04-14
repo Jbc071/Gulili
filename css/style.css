@@ -18,22 +18,7 @@ body {
     }
 }
 
-@media (max-width: 767px) {
-    /* Cambia el color de fondo a blanco en dispositivos móviles */
-    .navbar {
-        background-color: white;
-    }
-    
-    /* Ajusta la posición vertical del contenido de la barra de navegación */
-    .navbar-nav {
-        margin-top: 10px; /* Puedes ajustar este valor según tus necesidades */
-    }
 
-    /* Cambia el tamaño del logo en dispositivos móviles */
-    .navbar-brand img {
-        max-height: 40px; /* Puedes ajustar este valor según tus necesidades */
-    }
-}
 /**-----------------------------INICIO DE PAGINA= INDEX---------------------------------**/
 /**--------HEADER-------**/
 
@@ -48,13 +33,6 @@ body {
     height: 150px;
 }
 
-@media (max-widht: 767px) {
-    .comienzo img {
-        width: 100px;
-        height: 100px;
-    }
-}
-
 
 .comienzo {
     font-weight: 400;
@@ -64,13 +42,24 @@ body {
     padding: 5px;
 }
 
-.comienzo {
-    background: white;
-}
 
 .siguiente-seccion {
     margin-top: calc(10rem + 16px);
 }
+/* MEDIA CON RESPECTO A BARRA DE NAVEGACION - COLOR DE FONDO E IMAGEN LOGO */
+@media (max-width: 767px) {
+    .navbar {
+        background-color:rgba(255, 255, 255, 1);
+        transition: background-color 0.3 ease;
+    }
+    .navbar-nav {
+        margin-top: 10px; 
+    }
+    .navbar-brand img {
+        max-height: 40px; 
+    }
+}
+
 
 /** ---------CARRUSELLL IMAGENES AUTOMATICO---------- **/
 .carousel-inner div img {
@@ -673,60 +662,6 @@ ul li {
     border: none;
 }
 
-
-/* .footer {
-    background-color: #81c7849d;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-.footer a{
-    text-decoration: none;
-}
-
-.redes-sociales, .footer-contacto, .mapa {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.redes-sociales ul {
-    list-style: none;
-    padding: 0;
-}
-
-.redes-sociales ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.redes-sociales ul li a img {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.3s ease;
-}
-
-.redes-sociales ul li a:hover img {
-    transform: scale(1.1);
-}
-
-.footer-contacto h3, .mapa h3 {
-    margin-top: 20px;
-}
-
-.footer-contacto img {
-    width: 40px;
-    height: 40px;
-}
-.footer-contacto img a:hover {
-    transform: scale(1.1);
-}
-.mapa iframe {
-    width: 100%;
-    height: 250px;
-    border: none;
-}  */
 
 
 /**---FIN DE FOOTERR-------**/
