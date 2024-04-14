@@ -6,14 +6,18 @@
     box-sizing: border-box;
 }
 
-
-
-
 body {
     min-height: 100vh;
     font-family: "Shadows Into Light Two", cursive;
     line-height: 35px;
 }
+
+@media screen and (max-width: 767px){
+    body {
+        font-family: "Shadows Into Light Two", cursive;
+    }
+}
+
 /**-----------------------------INICIO DE PAGINA= INDEX---------------------------------**/
 /**--------HEADER-------**/
 
@@ -29,13 +33,13 @@ body {
 }
 
 .comienzo {
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     margin: 5px;
     padding: 5px;
 }
+
 
 .comienzo {
     background: white;
@@ -56,9 +60,7 @@ body {
     align-content: center;
 }
 
-.soy-gulili{
-    align-content: center;
-}
+
 
 .objetivo-gulili{
     color: #6c016c;
@@ -91,7 +93,6 @@ body {
     padding: 20px;
 }
 .texto-con-fondo p{
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 600;
     font-size: large;
 }
@@ -150,7 +151,6 @@ body {
     background-image: url(../img/separador-salas.jpg);
     color: white;
     padding: 1vw;
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -249,7 +249,6 @@ body {
 
 .jornadas h2 {
     font-size: 40px;
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 800;
     font-style: normal;
     text-align: center;
@@ -257,14 +256,13 @@ body {
 
 .jornadas h3 {
     font-size: 20px;
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 400;
     font-style: normal;
     text-align: center;
 }
 
 .jornadaesp {
-    font-family: "Shadows Into Light Two", cursive;
+
     text-align: center;
     color: white;
     display: block;
@@ -353,7 +351,6 @@ body {
 
 .info-jardin h2 {
     color: #82027e;
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 800;
     font-size: 40px;
     text-align: center;
@@ -373,7 +370,7 @@ body {
 .info-jardin4 div {
     height: auto;
     width: 800px;
-    font-family: "Shadows Into Light Two", cursive;
+
     font-size: 15px;
     line-height: 30px;
     margin-bottom: 15px;
@@ -383,7 +380,7 @@ body {
 
 .info-jardin1 h3 {
     color: #82027e;
-    font-family: "Shadows Into Light Two", cursive;
+
     font-size: 20px;
     text-align: center;
 }
@@ -392,7 +389,6 @@ body {
 .info-jardin2 p,
 .info-jardin3 p,
 .info-jardin4 p {
-    font-family: "Shadows Into Light Two", cursive;
     font-size: 15px;
     text-align: center;
     line-height: 20px;
@@ -410,7 +406,6 @@ body {
 
 .info-jardin2 h3 {
     color: #82027e;
-    font-family: "Shadows Into Light Two", cursive;
     font-size: 20px;
     text-align: center;
 }
@@ -426,7 +421,6 @@ body {
 
 .info-jardin3 h3 {
     color: #82027e;
-    font-family: "Shadows Into Light Two", cursive;
     font-size: 20px;
     text-align: center;
 }
@@ -442,7 +436,6 @@ body {
 
 .info-jardin4 h3 {
     color: #82027e;
-    font-family: "Shadows Into Light Two", cursive;
     font-size: 20px;
     text-align: center;
 }
@@ -473,7 +466,6 @@ body {
 .infra-1,
 .infra-2 {
     color: #6c016c;
-    font-family: "Shadows Into Light Two", cursive;
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
