@@ -509,11 +509,6 @@ body {
 }
 
 
-@media (max-width: 375px) {
-    .infraestructura div h2{
-        font-size: 30px;
-    }
-}
 .infra-listas {
     display: flex;
     justify-content: space-around;
