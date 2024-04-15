@@ -164,7 +164,7 @@ body {
 }
 
 /**------INFRAESTRUCTURA-------**/
-#infraestructura {
+.infraestructura{
     background-image: url(../img/separador3.jpg);
 }
 
@@ -177,10 +177,11 @@ body {
     height: auto;
 }
 @media (max-widht: 767px){
-    #infraestructura h2{
+    .infraestructura div h2{
         font-size: 20px;
     }
 }
+
 
 
 /**-----------------------------INICIO DE PAGINA SALAS---------------------------------**/
