@@ -24,9 +24,12 @@ body {
 
 .comienzo {
     background-color: white;
-    padding-top: 70px;
-    margin-top: 0px;
-    height: 500px;
+    height: 120px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
 }
 
 .comienzo img {
@@ -40,16 +43,6 @@ body {
         height: 75px;
     }
 }
-
-
-.comienzo {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-}
-
 
 .siguiente-seccion {
     margin-top: calc(10rem + 16px);
