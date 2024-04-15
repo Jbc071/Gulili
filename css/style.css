@@ -508,14 +508,10 @@ body {
     font-size: 40px;
 }
 
-@media (max-width: 767px) {
-    .infraestructura div h2{
-        font-size: 15px;
-    }
-}
+
 @media (max-width: 375px) {
     .infraestructura div h2{
-        font-size: 12px;
+        font-size: 30px;
     }
 }
 .infra-listas {
