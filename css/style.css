@@ -503,9 +503,15 @@ body {
 }
 
 
-.infraestructura h2 {
+.infraestructura div h2 {
     color: #82027e;
-    font-size: 30px;
+    font-size: 40px;
+}
+
+@media (max-widht: 767px) {
+    .infraestructura div h2{
+        font-size: 20px;
+    }
 }
 
 .infra-listas {
