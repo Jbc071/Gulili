@@ -25,7 +25,8 @@ body {
 .comienzo {
     background-color: white;
     padding-top: 70px;
-    margin-top: 10px;
+    margin-top: 0px;
+    height: 500px;
 }
 
 .comienzo img {
