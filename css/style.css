@@ -495,7 +495,12 @@ body {
     color: #82027e;
     font-size: 40px;
 }
-
+@media screen and (max-width: 767px){
+    .infraestructura div h2{
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
 
 .infra-listas {
     display: flex;
