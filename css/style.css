@@ -490,41 +490,13 @@ body {
     background-image: url(../img/separador3.jpg);
 }
 
-
-.infra div h2 {
-    color: #82027e;
-    font-size: 40px;
-}
-@media (max-width: 767px){
-    .infra div h2{
-        color: #ff19ec;
-        font-size: 25px;
-        font-weight: 600;
-    }
-}
-
-.infra-listas {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: ce;
-}
-
-.infra-1,
-.infra-2 {
-    color: #6c016c;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20px;
-}
-
-ul {
+.infra div ul {
     list-style: square;
 }
 
-ul li {
+.infra div ul li {
     margin-bottom: 15px;
-}
+} 
 
 
 /** ----------INICIO DE CONTACTOO------ **/
