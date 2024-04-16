@@ -24,13 +24,11 @@ body {
 
 .comienzo {
     background-color: white;
-    max-height: 120px;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     margin: 0px;
     padding: 0px;
-
 }
 
 .comienzo img {
@@ -38,7 +36,7 @@ body {
     height: 150px;
 }
 /* MEDIA CON RESPECTO A BARRA DE NAVEGACION - COLOR DE FONDO E IMAGEN LOGO */
-@media screen and (max-width: 991px){
+@media (max-width: 767px){
     .navbar-nav{
         background-color:rgba(255, 255, 255, 1);
         transition: background-color 0.3 ease;
@@ -49,7 +47,7 @@ body {
     .comienzo img{
         width: 125px;
         height: 125px;
-    }
+    } 
 
 }
 
@@ -66,6 +64,7 @@ body {
 }
 
 /**------INDEX SECCION BIENVENIDOS-------**/
+
 
 
 .index-img-reuniones {
