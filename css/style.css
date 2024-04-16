@@ -486,19 +486,20 @@ body {
 
 
 /* -----INFRAESTRUCTURA------------ */
-.infraestructura {
+.infra {
     background-image: url(../img/separador3.jpg);
 }
 
 
-.infraestructura div h2 {
+.infra div h2 {
     color: #82027e;
     font-size: 40px;
 }
 @media (max-width: 767px){
-    .infraestructura div h2{
-        font-size: 20px;
-        font-weight: 400;
+    .infra div h2{
+        color: #ff19ec;
+        font-size: 25px;
+        font-weight: 600;
     }
 }
 
