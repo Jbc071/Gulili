@@ -24,42 +24,41 @@ body {
 
 .comienzo {
     background-color: white;
-    height: 120px;
-    font-weight: 500;
+    height: 150px;
+    font-weight: 400;
     font-style: normal;
     font-size: 20px;
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
 }
 
 .comienzo img {
     width: 150px;
     height: 150px;
 }
-
+/* MEDIA CON RESPECTO A BARRA DE NAVEGACION - COLOR DE FONDO E IMAGEN LOGO */
 @media (max-width: 767px){
     .comienzo img{
         width: 75px;
         height: 75px;
     }
+    .comienzo{
+        background-color:rgba(255, 255, 255, 1);
+        transition: background-color 0.3 ease;
+    }
+    .comienzo img{
+        max-height: 60px;
+    }
+    .navbar-nav {
+        margin-top: 5px;
+    }
 }
+
 
 .siguiente-seccion {
     margin-top: calc(10rem + 16px);
 }
-/* MEDIA CON RESPECTO A BARRA DE NAVEGACION - COLOR DE FONDO E IMAGEN LOGO */
-@media (max-width: 767px) {
-    .navbar {
-        background-color:rgba(255, 255, 255, 1);
-        transition: background-color 0.3 ease;
-    }
-    .navbar-nav {
-        margin-top: 10px; 
-    }
-    .navbar-brand img {
-        max-height: 60px; 
-    }
-}
+
 
 
 /** ---------CARRUSELLL IMAGENES AUTOMATICO---------- **/
