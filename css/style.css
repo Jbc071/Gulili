@@ -147,7 +147,8 @@ body {
 
 @media screen and (max-width: 767px) {
     .container div h2{
-        font-size: 30px;
+        font-size: 20px;
+        font-weight: 400;
     }
     
 }
@@ -173,11 +174,7 @@ body {
     width: 100px;
     height: auto;
 }
-@media (max-widht: 767px){
-    .infraestructura div h2{
-        font-size: 20px;
-    }
-}
+
 
 /**-----------------------------INICIO DE PAGINA SALAS---------------------------------**/
 
@@ -527,8 +524,9 @@ body {
 
 #footer {
     background-color: #f8f9fa;
-    padding: 50px 0;
+    padding: 30px 0;
     color: #343a40;
+
 }
 
 #footer h3 {
