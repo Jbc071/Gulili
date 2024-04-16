@@ -490,6 +490,11 @@ body {
     background-image: url(../img/separador3.jpg);
 }
 
+.infra div h2{
+    color: #6c016c;
+    font-weight: 700;
+}
+
 .infra div ul {
     list-style: square;
 }
