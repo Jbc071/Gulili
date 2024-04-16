@@ -38,7 +38,7 @@ body {
     height: 150px;
 }
 /* MEDIA CON RESPECTO A BARRA DE NAVEGACION - COLOR DE FONDO E IMAGEN LOGO */
-@media (max-width: 767px){
+@media screen and (max-width: 991px){
     .navbar-nav{
         background-color:rgba(255, 255, 255, 1);
         transition: background-color 0.3 ease;
