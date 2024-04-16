@@ -6,14 +6,14 @@
 
 body {
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     line-height: 35px;
 }
 
 @media screen and (max-width: 767px) {
     body {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: 400;
     }
 }
@@ -278,117 +278,22 @@ body {
 
 /**---INICIO DE SECCION INFORMACION JORNADAS-------**/
 
-.jornadas,
-.info-padres,
-.info-jardin {
-    background-color: white;
-    color: black;
-    margin: 15px;
-    padding: 15px;
-}
-
-.jornadas h2 {
-    font-size: 40px;
-    font-weight: 800;
-    font-style: normal;
-    text-align: center;
-}
-
-.jornadas h3 {
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-}
-
-.jornadaesp {
-
-    text-align: center;
-    color: white;
-    display: block;
-    background-color: rgba(96, 12, 206, 0.76);
-    margin: 15px;
-}
-
-.jornadaesp h3 {
-    font-size: 20px;
-    padding: 5px;
-}
-
-.jornadaesp h4 {
-    font-size: 20px;
-}
-
 
 /**---INICIO DE SECCION INFORMACION PADRES-------**/
 
 .info-padres {
-    background-color: #99cf15;
-}
+    background-image: url(../img/separador1.jpg);
 
-.info-padres h2 {
-    font-size: 40px;
-    font-weight: 800;
-    font-style: normal;
+}
+.info-padres div ul li{
+    color: black;
     text-align: center;
-    color: white;
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
 }
 
-.info-1 {
-    display: flex;
-    flex: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 30px;
-}
-
-.info-1 div,
-.info-2 div,
-.info-3 div,
-.info-4 div {
-    background-color: white;
-    height: 60px;
-    width: 800px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 15px;
-    border-radius: 20px;
-    margin-bottom: 15px;
-}
-
-.info-2 {
-    display: flex;
-    flex: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 15px;
-}
-
-
-.info-3 {
-    display: flex;
-    flex: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 30px;
-}
-
-.info-4 {
-    display: flex;
-    flex: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 30px;
-}
 
 /**---INICIO DE SECCION INFORMACION jardin-------**/
-
+/* 
 .info-jardin h2 {
     color: #82027e;
     font-weight: 800;
@@ -478,7 +383,7 @@ body {
     color: #82027e;
     font-size: 20px;
     text-align: center;
-}
+} */
 
 
 /**------------------------INICIO DE SECCION NOSOTROS-----------------------------**/
@@ -491,7 +396,6 @@ body {
 }
 
 .infra div h2{
-    color: #6c016c;
     font-weight: 700;
 }
 
