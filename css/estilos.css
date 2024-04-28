@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0cm;
   padding: 0cm;
@@ -31,25 +32,191 @@ main .siguiente-seccion {
     max-height: 70vh;
     max-width: 100%; }
 
-main .bienvenidos2 .objetivo-gulili {
-  color: #6c016c;
-  font-size: 20px;
+main .bienvenidos div h2 {
+  color: #82027e;
+  margin: 0px 0px 8px;
+  padding: 10px; }
+
+main .bienvenidos div p {
+  color: #808080;
   text-align: center;
-  line-height: 40px;
-  text-shadow: -3px 7px 9px rgba(6, 162, 137, 0.69);
-  border-radius: 35px 35px 35px 35px;
-  -webkit-border-radius: 35px 35px 35px 35px;
-  -moz-border-radius: 35px 35px 35px 35px;
-  border: 13px outset rgba(217, 255, 80, 0.42); }
+  margin: 0px 0px 16px; }
 
-main .bienvenidos2 .index-img-reuniones {
-  width: 180px;
-  align-content: center; }
+main .bienvenidos2 {
+  margin: 0px 60px;
+  padding: 25px; }
+  main .bienvenidos2 div .objetivo-gulili {
+    color: #6c016c;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    text-shadow: -3px 7px 9px rgba(6, 162, 137, 0.69);
+    border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    border: 13px outset rgba(217, 255, 80, 0.42); }
+  main .bienvenidos2 div .index-img-reuniones {
+    width: 180px;
+    align-content: center; }
+  main .bienvenidos2 div .compromiso-gulili {
+    color: #99cf15;
+    text-align: right;
+    font-size: 30px; }
 
-main .bienvenidos2 .compromiso-gulili {
-  color: #99cf15;
-  text-align: right;
-  font-size: 30px; }
+main .nosotros3 {
+  background-image: url(../img/watercolor.jpg);
+  background-size: cover;
+  background-position: center; }
+  main .nosotros3 div .texto-con-fondo {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 20px; }
+    main .nosotros3 div .texto-con-fondo p {
+      color: #808080;
+      font-weight: 600;
+      font-size: large; }
+  main .nosotros3 .imagen-fondo {
+    position: relative;
+    background-image: url(../img/watercolor.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 20px; }
+
+main .separador-salas div h2 {
+  background-image: url(../img/separador-salas.jpg);
+  color: white;
+  padding: 1vw;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 10vw;
+  height: 15vw;
+  margin: 5vw; }
+
+main .nuestro-jardin {
+  padding: 25px; }
+  main .nuestro-jardin div h2 {
+    color: #82027e;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px; }
+  main .nuestro-jardin div p {
+    color: gray; }
+  main .nuestro-jardin .nuestro-jardin-img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 66px 36px 35px 0px;
+    -webkit-border-radius: 66px 36px 35px 0px;
+    -moz-border-radius: 66px 36px 35px 0px; }
+
+main .infra {
+  background-image: url(../img/separador3.jpg); }
+  main .infra div h2 {
+    color: #82027e;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 10px; }
+  main .infra div ul {
+    list-style: square; }
+    main .infra div ul li {
+      margin-bottom: 15px; }
+
+main .salas-lactante {
+  background-color: aquamarine;
+  border-radius: 51px 51px 51px 51px;
+  -webkit-border-radius: 51px 51px 51px 51px;
+  -moz-border-radius: 51px 51px 51px 51px;
+  padding: 25px; }
+  main .salas-lactante div p {
+    color: #6b6666;
+    text-align: center; }
+
+main .salas-1año {
+  background-color: RGBA(0, 78, 195, 0.4);
+  border-radius: 51px 51px 51px 51px;
+  -webkit-border-radius: 51px 51px 51px 51px;
+  -moz-border-radius: 51px 51px 51px 51px;
+  padding: 25px; }
+  main .salas-1año div p {
+    color: black;
+    text-align: center; }
+
+main .salas-2año {
+  background-color: RGBA(255, 78, 195, 0.4);
+  border-radius: 51px 51px 51px 51px;
+  -webkit-border-radius: 51px 51px 51px 51px;
+  -moz-border-radius: 51px 51px 51px 51px;
+  padding: 25px; }
+  main .salas-2año div p {
+    color: #6b6666;
+    text-align: center; }
+
+main .salas-3año {
+  background-color: RGBA(0, 247, 0, 0.33);
+  border-radius: 51px 51px 51px 51px;
+  -webkit-border-radius: 51px 51px 51px 51px;
+  -moz-border-radius: 51px 51px 51px 51px;
+  padding: 25px; }
+  main .salas-3año div p {
+    color: black;
+    text-align: center; }
+
+main .salas-img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 51px 51px 51px 51px;
+  -webkit-border-radius: 51px 51px 51px 51px;
+  -moz-border-radius: 51px 51px 51px 51px;
+  padding: 15px; }
+
+main .jornada-horario div h2 {
+  color: #82027e;
+  font-size: 35px;
+  font-weight: 400;
+  padding: 10px; }
+
+main .jornada-horario div h4 {
+  padding: 10px; }
+
+main .tipo-jornadas div {
+  background-color: #82027e;
+  text-align: center;
+  color: white;
+  border-radius: 103px 103px 103px 104px;
+  -webkit-border-radius: 103px 103px 103px 104px;
+  -moz-border-radius: 103px 103px 103px 104px;
+  padding: 15px;
+  margin-bottom: 20px; }
+  main .tipo-jornadas div h6 {
+    line-height: 30px; }
+
+main .info-padres {
+  background-image: url(../img/separador1.jpg); }
+  main .info-padres div h2 {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px; }
+  main .info-padres div ul li {
+    text-align: center;
+    margin: 10px; }
+
+main .info-jardin h2 {
+  color: #82027e;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+  margin: 20px; }
+
+main .info-jardin div img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px; }
+
+main .info-jardin div h3 {
+  color: #82027e; }
 
 footer {
   background-color: #f8f9fa;
@@ -74,30 +241,7 @@ footer {
     height: 200px;
     border: none; }
 
-/** ---------CARRUSELLL IMAGENES AUTOMATICO---------- **/
-.siguiente-seccion {
-  margin-top: calc(10rem + 16px); }
-  .siguiente-seccion .carousel-inner div img {
-    max-height: 70vh;
-    max-width: 100%; }
-
-/**------INDEX SECCION OBJETIVOS -NUESTRO COMPROMIS-------**/
-.bienvenidos2 .objetivo-gulili {
-  color: #6c016c;
-  font-size: 20px;
-  text-align: center;
-  line-height: 40px;
-  text-shadow: -3px 7px 9px rgba(6, 162, 137, 0.69);
-  border-radius: 35px 35px 35px 35px;
-  -webkit-border-radius: 35px 35px 35px 35px;
-  -moz-border-radius: 35px 35px 35px 35px;
-  border: 13px outset rgba(217, 255, 80, 0.42); }
-
-.bienvenidos2 .index-img-reuniones {
-  width: 180px;
-  align-content: center; }
-
-.bienvenidos2 .compromiso-gulili {
-  color: #99cf15;
-  text-align: right;
-  font-size: 30px; }
+@media (max-width: 767px) {
+  .infra div h2 {
+    font-size: 30px;
+    font-weight: 400; } }
