@@ -250,6 +250,13 @@ main {
         }
     }
     .info-jardin{
+        .info-jardin-div{
+            img{
+                width: 80px;
+                height: 80px;
+                margin-bottom: 10px;
+            }
+        }
         h2{
             color: #82027e;
             font-size: 40px;
@@ -257,17 +264,6 @@ main {
             text-align: center;
             padding: 10px;
             margin: 20px;
-        }
-        div{
-            img{
-                width: 80px;
-                height: 80px;
-                margin-bottom: 10px;
-            }
-            h3{
-                color: #82027e; 
-            }
-
         }
     }
 }

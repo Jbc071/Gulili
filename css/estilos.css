@@ -202,6 +202,11 @@ main .info-padres {
     text-align: center;
     margin: 10px; }
 
+main .info-jardin .info-jardin-div img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px; }
+
 main .info-jardin h2 {
   color: #82027e;
   font-size: 40px;
@@ -210,33 +215,29 @@ main .info-jardin h2 {
   padding: 10px;
   margin: 20px; }
 
-main .info-jardin div img {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 10px; }
-
-main .info-jardin div h3 {
-  color: #82027e; }
-
-footer {
+.footer {
   background-color: #f8f9fa;
   padding: 30px 0;
   color: #343a40; }
-  footer div h3 {
+  .footer div h3 {
+    font-size: 25px;
     color: #343a40;
     margin-bottom: 20px; }
-  footer div img {
-    width: 30px;
-    height: 30px; }
-  footer div p {
+  .footer div p {
     margin-bottom: 15px; }
-  footer div ul {
+    .footer div p img {
+      width: 30px;
+      height: 30px; }
+  .footer div ul {
     list-style: none;
     padding-left: 0; }
-    footer div ul li {
+    .footer div ul li {
       display: inline-block;
       margin-right: 20px; }
-  footer div iframe {
+      .footer div ul li img {
+        width: 30px;
+        height: 30px; }
+  .footer div iframe {
     width: 100%;
     height: 200px;
     border: none; }
