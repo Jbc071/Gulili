@@ -246,3 +246,7 @@ main .info-jardin h2 {
   .infra div h2 {
     font-size: 30px;
     font-weight: 400; } }
+
+@media screen and (max-width: 767px) {
+  .index-img-reuniones {
+    width: 90px; } }
