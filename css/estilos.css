@@ -210,6 +210,48 @@ main .info-jardin h2 {
   padding: 10px;
   margin: 20px; }
 
+main .contacto {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
+  main .contacto div h2 {
+    color: #82027e;
+    font-size: 36px;
+    padding: 20px; }
+  main .contacto div img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px; }
+  main .contacto div p {
+    color: gray; }
+
+main .contacto-formulario {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffcece;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
+  main .contacto-formulario h3 {
+    color: #82027e;
+    font-size: 25px;
+    margin-bottom: 25px; }
+  main .contacto-formulario div input[type="text"]:focus, main .contacto-formulario div input[type="email"]:focus, main .contacto-formulario div textarea:focus {
+    border-color: #82027e; }
+  main .contacto-formulario button {
+    background-color: #82027e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; }
+  main .contacto-formulario button:hover {
+    background-color: #6c016c; }
+
 .footer {
   background-color: #f8f9fa;
   padding: 30px 0;

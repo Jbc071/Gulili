@@ -261,6 +261,61 @@ main {
         }
     }
 
-        //**PAGINA CONTACTO  **/
+    //**-------------PAGINA CONTACTO---------------  **/
+
+    .contacto{
+        background-color: #ffffff;
+        padding: 50px 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        div{
+            h2{
+                color: $color-principal;
+                font-size: 36px;
+                padding: 20px;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+                margin-bottom: 10px;
+            }
+            p{
+                color: $color-texto;
+            }
+        }
+    }
+    .contacto-formulario{
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffcece;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        h3{
+            color: $color-principal;
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+        div{
+            input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+                border-color: $color-principal;
+            }
+        }
+        button{
+            background-color: #82027e;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover{
+            background-color: #6c016c;
+        }
+    }
+
 
 }
