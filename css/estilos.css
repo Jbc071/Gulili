@@ -110,8 +110,7 @@ main .nuestro-jardin {
     font-weight: 400;
     padding: 10px; }
   main .nuestro-jardin div p {
-    color: gray;
-    text-align: justify; }
+    color: gray; }
   main .nuestro-jardin .nuestro-jardin-img {
     height: 400px;
     object-fit: cover;
@@ -255,8 +254,8 @@ main .info-jardin h2 {
 
 @media (max-width: 767px) {
   .infra div h2 {
-    font-size: 30px;
-    font-weight: 400; } }
+    font-size: 25px;
+    font-weight: 350; } }
 
 @media screen and (max-width: 767px) {
   .index-img-reuniones {
