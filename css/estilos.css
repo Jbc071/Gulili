@@ -15,6 +15,12 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400; } }
 
+main .salas-lactante, main .salas-1año, main .salas-2año, main .salas-3año, main .salas-img {
+  border-radius: 51px 51px 51px 51px;
+  -webkit-border-radius: 51px 51px 51px 51px;
+  -moz-border-radius: 51px 51px 51px 51px;
+  padding: 25px; }
+
 .comienzo {
   background-color: white;
   font-weight: 400;
@@ -32,36 +38,38 @@ main .siguiente-seccion {
     max-height: 70vh;
     max-width: 100%; }
 
-main .bienvenidos div h2 {
-  color: #82027e;
-  margin: 0px 0px 8px;
-  padding: 10px; }
-
-main .bienvenidos div p {
-  color: #808080;
-  text-align: center;
-  margin: 0px 0px 16px; }
+main .bienvenidos div {
+  padding: 20px; }
+  main .bienvenidos div h2 {
+    color: #82027e;
+    margin: 0px 0px 8px;
+    padding: 10px; }
+  main .bienvenidos div p {
+    color: gray;
+    text-align: center;
+    margin: 0px 0px 16px; }
 
 main .bienvenidos2 {
-  margin: 0px 60px;
-  padding: 25px; }
-  main .bienvenidos2 div .objetivo-gulili {
-    color: #6c016c;
-    font-size: 20px;
-    text-align: center;
-    line-height: 40px;
-    text-shadow: -3px 7px 9px rgba(6, 162, 137, 0.69);
-    border-radius: 35px 35px 35px 35px;
-    -webkit-border-radius: 35px 35px 35px 35px;
-    -moz-border-radius: 35px 35px 35px 35px;
-    border: 13px outset rgba(217, 255, 80, 0.42); }
-  main .bienvenidos2 div .index-img-reuniones {
-    width: 180px;
-    align-content: center; }
-  main .bienvenidos2 div .compromiso-gulili {
-    color: #99cf15;
-    text-align: right;
-    font-size: 30px; }
+  padding: 50px; }
+  main .bienvenidos2 div {
+    align-items: center; }
+    main .bienvenidos2 div .objetivo-gulili {
+      color: #82027e;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+      text-shadow: -3px 7px 9px rgba(6, 162, 137, 0.69);
+      border-radius: 35px 35px 35px 35px;
+      -webkit-border-radius: 35px 35px 35px 35px;
+      -moz-border-radius: 35px 35px 35px 35px;
+      border: 13px outset rgba(217, 255, 80, 0.42); }
+    main .bienvenidos2 div .index-img-reuniones {
+      width: 180px;
+      align-content: center; }
+    main .bienvenidos2 div .compromiso-gulili {
+      color: #99cf15;
+      text-align: right;
+      font-size: 30px; }
 
 main .nosotros3 {
   background-image: url(../img/watercolor.jpg);
@@ -72,7 +80,7 @@ main .nosotros3 {
     text-align: center;
     padding: 20px; }
     main .nosotros3 div .texto-con-fondo p {
-      color: #808080;
+      color: gray;
       font-weight: 600;
       font-size: large; }
   main .nosotros3 .imagen-fondo {
@@ -102,7 +110,8 @@ main .nuestro-jardin {
     font-weight: 400;
     padding: 10px; }
   main .nuestro-jardin div p {
-    color: gray; }
+    color: gray;
+    text-align: justify; }
   main .nuestro-jardin .nuestro-jardin-img {
     height: 400px;
     object-fit: cover;
@@ -123,52 +132,36 @@ main .infra {
       margin-bottom: 15px; }
 
 main .salas-lactante {
-  background-color: aquamarine;
-  border-radius: 51px 51px 51px 51px;
-  -webkit-border-radius: 51px 51px 51px 51px;
-  -moz-border-radius: 51px 51px 51px 51px;
-  padding: 25px; }
+  background-color: aquamarine; }
   main .salas-lactante div p {
-    color: #6b6666;
-    text-align: center; }
+    color: gray;
+    text-align: center;
+    padding: 10px; }
 
 main .salas-1año {
-  background-color: RGBA(0, 78, 195, 0.4);
-  border-radius: 51px 51px 51px 51px;
-  -webkit-border-radius: 51px 51px 51px 51px;
-  -moz-border-radius: 51px 51px 51px 51px;
-  padding: 25px; }
+  background-color: RGBA(0, 78, 195, 0.4); }
   main .salas-1año div p {
     color: black;
-    text-align: center; }
+    text-align: center;
+    padding: 10px; }
 
 main .salas-2año {
-  background-color: RGBA(255, 78, 195, 0.4);
-  border-radius: 51px 51px 51px 51px;
-  -webkit-border-radius: 51px 51px 51px 51px;
-  -moz-border-radius: 51px 51px 51px 51px;
-  padding: 25px; }
+  background-color: RGBA(255, 78, 195, 0.4); }
   main .salas-2año div p {
-    color: #6b6666;
-    text-align: center; }
+    color: gray;
+    text-align: center;
+    padding: 10px; }
 
 main .salas-3año {
-  background-color: RGBA(0, 247, 0, 0.33);
-  border-radius: 51px 51px 51px 51px;
-  -webkit-border-radius: 51px 51px 51px 51px;
-  -moz-border-radius: 51px 51px 51px 51px;
-  padding: 25px; }
+  background-color: RGBA(0, 247, 0, 0.33); }
   main .salas-3año div p {
     color: black;
-    text-align: center; }
+    text-align: center;
+    padding: 10px; }
 
 main .salas-img {
   height: 400px;
-  object-fit: cover;
-  border-radius: 51px 51px 51px 51px;
-  -webkit-border-radius: 51px 51px 51px 51px;
-  -moz-border-radius: 51px 51px 51px 51px;
-  padding: 15px; }
+  object-fit: cover; }
 
 main .jornada-horario div h2 {
   color: #82027e;
@@ -186,7 +179,7 @@ main .tipo-jornadas div {
   border-radius: 103px 103px 103px 104px;
   -webkit-border-radius: 103px 103px 103px 104px;
   -moz-border-radius: 103px 103px 103px 104px;
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 20px; }
   main .tipo-jornadas div h6 {
     line-height: 30px; }
@@ -205,7 +198,10 @@ main .info-padres {
 main .info-jardin .info-jardin-div img {
   width: 80px;
   height: 80px;
-  margin-bottom: 10px; }
+  margin: 10 150px; }
+
+main .info-jardin .info-jardin-div h3 {
+  text-align: center; }
 
 main .info-jardin h2 {
   color: #82027e;

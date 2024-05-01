@@ -19,4 +19,28 @@ body {
 }
 
 
-//! VARIABLES
+//! VARIABLES  (1 solo valor)
+
+$color-principal: #82027e;
+$color-texto: gray;
+$color-fondo: white;
+
+//! LISTAS  (varios valores pero del mismo tipo - color - unidad de medidas)
+
+
+//! OPERACIONES (valores con + - * / )
+
+//! MAPAS (agrupar estilos que no son de la misma familia)
+
+//! EXTENDS 
+
+%border{
+    border-radius: 51px 51px 51px 51px;
+    -webkit-border-radius: 51px 51px 51px 51px;
+    -moz-border-radius: 51px 51px 51px 51px;
+    padding: 25px;
+}
+
+//! MIXINS  ( es mas amplio - para poder agregar varios contenidos)
+
+
